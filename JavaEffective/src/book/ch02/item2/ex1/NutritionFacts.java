@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package book.ch02.item2;
+package book.ch02.item2.ex1;
 
 /**
  * ITEM 2. CONSIDERAR UN BUILDER CUANDO NOS ENFRENTAMOS CON CONSTRUCTORES CON MUCHOS PARAMETROS

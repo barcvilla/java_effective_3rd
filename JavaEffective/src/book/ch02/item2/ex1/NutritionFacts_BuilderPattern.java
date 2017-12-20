@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package book.ch02.item2;
+package book.ch02.item2.ex1;
 
 /**
- *
+ * NutritionFacts_BuilderPattern inmutable class y todos los parametros con valores por defecto estan en un solo lugar
+ * Lo metodos setter del builder retorna el builder mismo, asi las invocaciones pueden ser encadenados, lo que nos da
+ * como resultado un API fluente
  * @author barcvilla
  */
 public class NutritionFacts_BuilderPattern 
