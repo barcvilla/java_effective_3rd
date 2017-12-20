@@ -75,4 +75,18 @@ public class NutritionFacts_BuilderPattern
         sodium = builder.sodium;
         carbohydrate = builder.carbohydrate;
    }    
+   
+   @Override
+   public String toString()
+   {
+       return "Nutrition Facts: ServingSize: " + servingSize + " servings: " + servings +
+               " calories: " + calories + " fat: " + fat + " sodium: " + sodium + 
+               " carbohydrate: " + carbohydrate;
+   }
+   
+    public static void main(String[] args) {
+        NutritionFacts_BuilderPattern cocaCola = new NutritionFacts_BuilderPattern.Builder(240, 8)
+                .calories(100).fat(32).sodium(35).carbohydrate(27).build();
+        System.out.println(cocaCola.toString());
+    }
 }
